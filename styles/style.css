@@ -11,14 +11,20 @@ body{
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   position: relative;
+}
+.holder_icons_img{
   background-color: #000000ba;
-  background-size: 100px 141px, 16.69% 100px, 20px 28px,2.083% 20px;
+  background-size: 100px 141px, 100% 100px, 20px 28px,11.083% 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
   background-image: linear-gradient(white 2px, transparent 2px),
                     linear-gradient(90deg, white 2px, transparent 2px),
                     linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
                     linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
 }
+.holder_icons_img_white{
+  background-color: #00000033;
+}
+
 .icon{
   width: 100%;
   height: 100px;
