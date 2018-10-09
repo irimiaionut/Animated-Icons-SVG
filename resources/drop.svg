@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="464pt" viewBox="-88 0 464 464" width="464pt">
+  <style>
+.animated {
+    transform: scale(.8) ;
+    transform-origin: 140px center;
+    animation: popup .5s ease-in forwards, bounce 5s .7s ease-out infinite;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(.9);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(.8);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform:  scale(.8) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(.8) translateY(20px);
+  }
+  15% {
+    -webkit-transform: scale(.8) translateY(0px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform:  scale(.8) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(.8) translateY(20px);
+  }
+  15% {
+    -webkit-transform: scale(.8) translateY(0px);
+  }
+}
+
+</style>
+  <path class="animated bounce" d="m288 314.855469c0 82.367187-64.472656 149.144531-144 149.144531s-144-66.777344-144-149.144531c0-114.855469 144-314.855469 144-314.855469s144 200 144 314.855469zm0 0" fill="#60a2d7"/>
+</svg>

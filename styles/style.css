@@ -1,0 +1,30 @@
+html{
+  padding:0;
+  margin:0;
+}
+body{
+  padding:0 40px;
+  margin:0;
+}
+
+.holder_icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  position: relative;
+  background-color: #000000ba;
+  background-size: 100px 141px, 16.69% 100px, 20px 28px,2.083% 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  background-image: linear-gradient(white 2px, transparent 2px),
+                    linear-gradient(90deg, white 2px, transparent 2px),
+                    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+}
+.icon{
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  padding:20px 0px;
+}
+.category{
+  font-family: 'Roboto', sans-serif;
+}
