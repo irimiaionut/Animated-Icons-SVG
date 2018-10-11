@@ -41,5 +41,32 @@
   </div>
 </div>
 
+<script>
+  var mixed = {
+    'weather' : ['input1', 'inpu2'],
+    'essential' : ['input3', 'input4']
+  };
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var iconSets = document.getElementsByClassName("holder_icons");
+    [].forEach.call(iconSets, function(iconSet) {
+      var i=0;
+      var icons = document.getElementsByTagName("img");
+        [].forEach.call(icons, function(icon) {
+          console.log(config[][i]);
+          // addIcon(icon, config[][i]);
+          i++;
+        });
+    });
+  });
+
+  function addIcon(element, icon, delay) {
+    setTimeout(function () {
+        element.src = icon;
+    }, delay);
+}
+
+
+</script>
+
 </body>
 </html>
