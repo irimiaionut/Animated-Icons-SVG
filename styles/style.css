@@ -9,7 +9,7 @@ body{
 
 .holder_icons {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   position: relative;
 }
 .holder_icons_img{
